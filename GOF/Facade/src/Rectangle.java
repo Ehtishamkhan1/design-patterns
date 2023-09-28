@@ -3,19 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package facade;
 
 /**
  *
  * @author FA20-BSE-039
  */
-public class Facade {
+public class Rectangle implements Shape {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+   @Override
+   public void draw() {
+      System.out.println("Rectangle::draw()");
+   }
 }
