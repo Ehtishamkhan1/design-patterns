@@ -33,7 +33,7 @@ public class ChainPatternDemo {
 
         // Log messages using the ERROR chain
         errorChain.logMessage(AbstractLogger.ERROR, "This is an error message.");
-        errorChain.logMessage(AbstractLogger.DEBUG, "This is a debug message (not logged).");
+        errorChain.logMessage(AbstractLogger.DEBUG, "This is a debug message (not logged)....");
         errorChain.logMessage(AbstractLogger.INFO, "This is an info message (not logged).");
 
         System.out.println("----------------------");
