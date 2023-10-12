@@ -9,7 +9,11 @@ package iterator;
  *
  * @author FA20-BSE-039
  */
-public interface Iterator {
-   public boolean hasNext();
-   public Object next();
+interface Iterator {
+   boolean hasNext();
+   Student next();
+   boolean hasPrevious();
+   Student previous();
+   void moveToFirst();
+   void moveToLast();
 }

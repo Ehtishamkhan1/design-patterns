@@ -10,13 +10,14 @@ package iterator;
  * @author FA20-BSE-039
  */
 public class IteratorPatternDemo {
-	
-   public static void main(String[] args) {
-      NameRepository namesRepository = new NameRepository();
 
-      for(Iterator iter = namesRepository.getIterator(); iter.hasNext();){
-         String name = (String)iter.next();
-         System.out.println("Name : " + name);
-      } 	
+   public static void main(String[] args) {
+      StudentRepository studentRepository = new StudentRepository();
+
+      // Iterate through students and print their names which start with "Muhammad"
+      studentRepository.printStudentsWithNameStartingFrom("Muhammad");
+
+      // Print all students
+      studentRepository.printAllStudents();
    }
 }

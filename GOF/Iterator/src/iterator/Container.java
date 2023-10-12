@@ -9,6 +9,6 @@ package iterator;
  *
  * @author FA20-BSE-039
  */
-public interface Container {
-   public Iterator getIterator();
+interface Container {
+   Iterator getIterator();
 }

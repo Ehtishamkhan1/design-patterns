@@ -30,7 +30,6 @@ public class NameRepository implements Container {
          return false;
       }
 
-      @Override
       public Object next() {
       
          if(this.hasNext()){
@@ -38,5 +37,25 @@ public class NameRepository implements Container {
          }
          return null;
       }		
+
+        @Override
+        public boolean hasPrevious() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        @Override
+        public Student previous() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        @Override
+        public void moveToFirst() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        @Override
+        public void moveToLast() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
    }
 }
