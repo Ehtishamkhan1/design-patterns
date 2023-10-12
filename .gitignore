@@ -24,3 +24,5 @@ hs_err_pid*
 replay_pid*
 /GOF/Facade/nbproject/private/
 /GOF/Facade/build/
+/Iterator/nbproject/private/
+/Iterator/build/
