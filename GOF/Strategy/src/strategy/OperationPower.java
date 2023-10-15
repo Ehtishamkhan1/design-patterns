@@ -8,6 +8,6 @@ package strategy;
  *
  * @author user
  */
-public class OperationAdd {
+public class OperationPower {
     
 }
